@@ -1,60 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <title>Fast & Fuel</title>
-</head>
-<body>
+  </head>
+  <body>
     <section class="hero is-fullheight">
-        <div class="hero-body has-text-centered">
-          <div class="login">
-            <img src="./img/fuel.png" width="200px" />
-            <form action="https://sheetdb.io/api/v1/mp3zax2x0z3b3" method="POST" id="sheetdb-form">
-              <div class="field">
-                <div class="control">
-                  <input name="data[odometer]" class="input is-medium is-rounded" type="number" placeholder="Odometer" required />
-                </div>
+      <div class="hero-body has-text-centered">
+        <div class="login">
+          <img src="./img/fuel.png" width="200px" />
+          <form
+            action="https://sheetdb.io/api/v1/mp3zax2x0z3b3"
+            method="POST"
+            id="sheetdb-form"
+          >
+            <div class="field">
+              <div class="control">
+                <input
+                  name="data[odometer]"
+                  class="input is-medium is-rounded"
+                  type="number"
+                  placeholder="Odometer"
+                  required
+                />
               </div>
-              <div class="field">
-                <div class="control">
-                  <input name="data[liters]" class="input is-medium is-rounded" type="number" placeholder="liters" required />
-                </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <input
+                  name="data[liters]"
+                  class="input is-medium is-rounded"
+                  type="number"
+                  placeholder="Liters"
+                  required
+                />
               </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <input
+                  name="data[consumption]"
+                  id="consumption"
+                  class="input is-medium is-rounded"
+                  type="number"
+                  placeholder="Consumption"
+                  disabled
+                />
+              </div>
+            </div>
 
-              <!--
-                <div class="field">
-                  <div class="control">
-                    <input class="input is-medium is-rounded" type="number" placeholder="$ per liter" required />
-                  </div>
-                </div>
-              -->
-
-              <button class="button is-block is-fullwidth is-primary is-medium is-rounded" type="submit">
-                Save
-              </button>
-            </form>
-            <br>
-            <nav class="level">
-              <div class="level-item has-text-centered">
-                <div class="chart">
-                  <canvas id="fuel-chart"></canvas>
-                </div>
+            <button
+              class="
+                button
+                is-block is-fullwidth is-primary is-medium is-rounded
+              "
+              type="submit"
+            >
+              Save
+            </button>
+          </form>
+          <br />
+          <nav class="container">
+            <div class="has-text-centered">
+              <div class="chart">
+                <canvas id="fuel-chart"></canvas>
               </div>
-              <div class="level-item has-text-centered">
-                <div>
-                  <a href="#">Acess the Data</a>
-                </div>
+            </div>
+            <div class="has-text-centered">
+              <div>
+                <a href="#">Acess the Data</a>
               </div>
-            </nav>
-          </div>
+            </div>
+          </nav>
         </div>
-      </section>
+      </div>
+    </section>
 
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
