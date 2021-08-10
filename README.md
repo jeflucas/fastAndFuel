@@ -1,4 +1,4 @@
-# fuelTracker
+# fastAndFuel
 
 [![CodeFactor](https://www.codefactor.io/repository/github/jeflucas/fueltracker/badge)](https://www.codefactor.io/repository/github/jeflucas/fueltracker)
 
@@ -51,4 +51,6 @@ The UI should include the following elements:
 
 1 - I'm thining to change the name of this project, from "Fuel Tracker" to "Fast and Fuel", hahaha!
 
-2 - 
+2 - I changed the name!
+
+3 - SheetDB is a tool that in found on internet that will conect my application to a Google sheet by API. It seems not so complicated to use.
