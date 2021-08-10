@@ -14,23 +14,26 @@
         <div class="hero-body has-text-centered">
           <div class="login">
             <img src="./img/fuel.png" width="200px" />
-            <form>
+            <form action="https://sheetdb.io/api/v1/mp3zax2x0z3b3" method="POST" id="sheetdb-form">
               <div class="field">
                 <div class="control">
-                  <input class="input is-medium is-rounded" type="number" placeholder="Odometer" required />
+                  <input name="data[odometer]" class="input is-medium is-rounded" type="number" placeholder="Odometer" required />
                 </div>
               </div>
               <div class="field">
                 <div class="control">
-                  <input class="input is-medium is-rounded" type="number" placeholder="liters" required />
+                  <input name="data[liters]" class="input is-medium is-rounded" type="number" placeholder="liters" required />
                 </div>
               </div>
-              <div class="field">
-                <div class="control">
-                  <input class="input is-medium is-rounded" type="number" placeholder="$ per liter" required />
+
+              <!--
+                <div class="field">
+                  <div class="control">
+                    <input class="input is-medium is-rounded" type="number" placeholder="$ per liter" required />
+                  </div>
                 </div>
-              </div>
-              <br />
+              -->
+
               <button class="button is-block is-fullwidth is-primary is-medium is-rounded" type="submit">
                 Save
               </button>
