@@ -16,7 +16,7 @@ Fuel Tracker will be a web application that will receive the value of the Odomet
 
 This project I'm planning to use:
 
-- SASS
+- CSS
 - Bulma Framework/Lib
 - HTML
 - JavaScript
