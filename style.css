@@ -1,0 +1,32 @@
+* {
+  font-family: roboto;
+  font-family---shadowDark: #D9DDE6;
+  font-family---background: #E4E9F2;
+  font-family---shadowLight: #EFF5FE;
+}
+
+body {
+  background: var(--background);
+}
+
+.hero-body {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.login {
+  border-radius: 25px;
+  padding: 1.5rem;
+  -webkit-box-shadow: 8px 8px 15px var(--shadowDark), -8px -8px 15px var(--shadowLight);
+          box-shadow: 8px 8px 15px var(--shadowDark), -8px -8px 15px var(--shadowLight);
+}
+
+input {
+  background: var(--shadowDark) !important;
+}
+
+a {
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */
