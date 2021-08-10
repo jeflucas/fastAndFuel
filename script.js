@@ -1,4 +1,7 @@
+//POST data into Google Sheet
+
 var form = document.getElementById("sheetdb-form");
+
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   fetch(form.action, {
@@ -7,6 +10,8 @@ form.addEventListener("submit", (e) => {
   })
     .then((response) => response.json())
     .then((html) => {
-      alert("Data instert in the Database with success");
+      alert("Nice!");
+      window.location.href = "./index.html";
     });
 });
+
