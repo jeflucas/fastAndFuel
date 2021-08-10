@@ -49,4 +49,6 @@ The UI should include the following elements:
 
 ## Notes 
 
-1 - 
+1 - I'm thining to change the name of this project, from "Fuel Tracker" to "Fast and Fuel", hahaha!
+
+2 - 
