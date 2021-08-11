@@ -26,7 +26,7 @@ This project I'm planning to use:
 
 Start    - 09 August 2021
 
-Deadline - 16 August 2021
+Deadline - Postponed
 
 - [x] Day 1 - Lear how to consume the Google Sheets API and do some tests
 - [X] Day 2 - Build the visual part
