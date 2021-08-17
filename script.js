@@ -40,7 +40,7 @@ form.addEventListener("submit", (e) => {
 
 
 // Create the chart
-    
+ /*   
     let chart = document.getElementById('fuel-chart').getContext('2d')
     
     let fuelChart = new Chart(chart, {
@@ -54,3 +54,5 @@ form.addEventListener("submit", (e) => {
         },
         options: {}
     })
+
+    */
