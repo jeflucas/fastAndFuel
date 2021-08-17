@@ -1,23 +1,26 @@
 // Get all data
 var info = axios.get('https://sheetdb.io/api/v1/mp3zax2x0z3b3')
 .then( response => {
-    return response.data;
+    
+    for (let i = 0; i < info.length; i++) {
+    
+        // Consumption calculation
+        var kmPercorridos = (info[i].odometer - info[i-1].odometer);
+        var consumo = (kmPercorridos / info[i].liters)
+        
+        if(info.length <= 1){
+            alert('This is your first refueling!')
+        } else {
+            document.getElementById('consumption') = consumo;
+            fuelChart.data.labels.push(i+1)
+            fuelChart.data.datasets[0].data.push(consumo)
+        }
+    }
+    
 });
 
 
-for (let i = 0; i < info.length; i++) {
-    // Consumption calculation
-    var kmPercorridos = (info[i].odometer - info[i-1].odometer);
-    var consumo = (kmPercorridos / info[i].liters)
 
-    if(info.length <= 1){
-        alert('This is your first refueling!')
-    } else {
-        document.getElementById('consumption') = consumo;
-        fuelChart.data.labels.push(i+1)
-        fuelChart.data.datasets[0].data.push(consumo)
-    }
-}
 
 
 //POST data into Google Sheet
