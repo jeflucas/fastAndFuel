@@ -14,7 +14,7 @@ Fast and Fuel is a web application that will receive the value of the Odometer a
 
 ## Technologies
 
-This project I'm planning to use:
+This project I'm using:
 
 - CSS
 - Bulma
