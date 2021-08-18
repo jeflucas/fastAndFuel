@@ -30,8 +30,6 @@
     font-weight: 600;
   }
 
-  .chart {
-    position: relative;
-    height: 50vh;
-    width: 80vw;
+  .is-info {
+    border-radius: 45px;
   }
