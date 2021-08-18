@@ -54,5 +54,3 @@ The UI should include the following elements:
 2 - I changed the name!
 
 3 - SheetDB is a tool that in found on internet that will conect my application to a Google sheet by API. It seems not so complicated to use.
-
-4 - I decided to make the fuel tracker more undestandable using a line graphic, to do that I'll use chart.js.
