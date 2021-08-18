@@ -10,14 +10,14 @@ Fuel Tracker will be a web application that will receive the value of the Odomet
 ## Screenshot
 
 
-![](/img/Capture.JPG)
+![](/img/capture.png)
 
 ## Technologies
 
 This project I'm planning to use:
 
 - CSS
-- Chart.js
+- Bulma
 - HTML
 - JavaScript
 - SheetDB
