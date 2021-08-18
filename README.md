@@ -1,8 +1,8 @@
 # fastAndFuel
 
-[![CodeFactor](https://www.codefactor.io/repository/github/jeflucas/fueltracker/badge)](https://www.codefactor.io/repository/github/jeflucas/fueltracker)
+[![CodeFactor](https://www.codefactor.io/repository/github/jeflucas/fastandfuel/badge)](https://www.codefactor.io/repository/github/jeflucas/fastandfuel)
 
-[Live Visualization](https://jeflucas.github.io/fuelTracker/index.html "Hello recruiter!")
+[Live Visualization](https://jeflucas.github.io/fastAndFuel/index.html "Hello recruiter!")
 
 
 Fuel Tracker will be a web application that will receive the value of the Odometer and the amount of fuel and will give the consumption from a vehicle.
