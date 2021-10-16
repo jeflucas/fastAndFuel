@@ -7,6 +7,8 @@
 
 Fast and Fuel is a web application that will receive the value of the Odometer and the amount of fuel and will give the consumption from a vehicle.
 
+
+
 ## Screenshot
 
 
